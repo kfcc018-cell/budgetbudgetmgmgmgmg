@@ -219,7 +219,7 @@
 
         // Fetch data from Google Sheets API
         async function fetchData() {
-            if (SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE') {
+            if (SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbyC8kYfNEZjb9wfKEuT4b_9Yb3Z-IUDVYY0WssqQirvsb8ENVXDPs5R-VjkufO6b907/exec') {
                 showAlert('설정 오류', 'Google Apps Script URL이 설정되지 않았습니다. 코드에서 SCRIPT_URL을 변경해주세요.');
                 renderHistory();
                 return;
@@ -276,7 +276,7 @@
         document.getElementById('budgetForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
-            if (SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE') {
+            if (SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbyC8kYfNEZjb9wfKEuT4b_9Yb3Z-IUDVYY0WssqQirvsb8ENVXDPs5R-VjkufO6b907/exec') {
                 showAlert('설정 오류', 'Google Apps Script URL이 설정되지 않았습니다.');
                 return;
             }
